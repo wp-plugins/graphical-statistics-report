@@ -5,8 +5,8 @@ Author URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Tags: graphical, statistics, report, graph, fusion chart,fusion graph, analysis, admin,
 Requires at least: 2.7
-Tested up to: 3.4.1
-Stable tag: 7.0
+Tested up to: 3.5
+Stable tag: 7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
@@ -55,29 +55,35 @@ No, this plugin only for admin report.
 
 == Upgrade Notice ==
 
+= Version 7.1 =
+
+Tested up to 3.5
+
 = Version 7.0 =
-New demo link, www.gopiplus.com
+
+New demo link, http://www.gopiplus.com
 
 = Version 6.0 =
-Tested upto 3.4.1
+
+Tested up to 3.4.1
 GPLv2 license text added
 
 = Version 5.0 =
 
-Tested upto 3.4
+Tested up to 3.4
 
 = Version 4.0 =
 
-Tested upto 3.3
+Tested up to 3.3
 
 = Version 3.0 =	
 
 Security fixes (Only admin user can see the plugin menu in the dashboard)		
-Tested upto 3.1.3
+Tested up to 3.1.3
 
 = Version 2.0 =		
 
-Tested upto 3.0
+Tested up to 3.0
 
 = Version 1.0 =
 
@@ -85,29 +91,35 @@ First version
 
 == Changelog ==
 
+= Version 7.1 =
+
+Tested up to 3.5
+
 = Version 7.0 =
-New demo link, www.gopiplus.com
+
+New demo link, http://www.gopiplus.com
 
 = Version 6.0 =
-Tested upto 3.4.1
+
+Tested up to 3.4.1
 GPLv2 license text added
 
 = Version 5.0 =
 
-Tested upto 3.4
+Tested up to 3.4
 
 = Version 4.0 =
 
-Tested upto 3.3
+Tested up to 3.3
 
 = Version 3.0 =	
 
 Security fixes (Only admin user can see the plugin menu in the dashboard)		
-Tested upto 3.1.3
+Tested up to 3.1.3
 
 = Version 2.0 =		
 
-Tested upto 3.0
+Tested up to 3.0
 
 = Version 1.0 =
 

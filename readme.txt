@@ -4,9 +4,9 @@ Donate link: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report
 Author URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Tags: graphical, statistics, report, graph, fusion chart,fusion graph, analysis, admin,
-Requires at least: 2.7
-Tested up to: 3.5
-Stable tag: 7.1
+Requires at least: 3.4
+Tested up to: 3.6
+Stable tag: 8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
@@ -55,6 +55,10 @@ No, this plugin only for admin report.
 
 == Upgrade Notice ==
 
+= Version 8.0 =
+
+Tested up to 3.6
+
 = Version 7.1 =
 
 Tested up to 3.5
@@ -90,6 +94,10 @@ Tested up to 3.0
 First version
 
 == Changelog ==
+
+= Version 8.0 =
+
+Tested up to 3.6
 
 = Version 7.1 =
 

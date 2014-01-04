@@ -1,10 +1,9 @@
 <?php
-
 /*
 Plugin Name: graphical statistics report
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Description: This plug-in will display the graphical report for admin about, monthly user registration, monthly post summary, monthly comments posted summary and category wise post summary.
-Version: 8.1
+Version: 8.2
 Author: Gopi.R
 Author URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Donate link: http://www.gopiplus.com/work/2011/05/08/wordpress-plugin-image-horizontal-reel-scroll-slideshow/
@@ -39,8 +38,8 @@ function graphic_report_admin_options()
 	  <div class="form-wrap">
 		<div id="icon-edit" class="icon32 icon32-posts-post"><br>
 		</div>
-		<h2>Graphical statistics</h2>	
-		<h3>Monthly post report</h3>
+		<h2><?php _e('Graphical statistics', 'graphical-statistics-report'); ?></h2>	
+		<h3><?php _e('Monthly post report', 'graphical-statistics-report'); ?></h3>
 		<?php
 		//------------------------------Monthly post Summary-----------------------------------------------------
 		$sSql =	"SELECT MONTH(post_date) as m, YEAR(post_date) as y, COUNT(*) as tot";
@@ -71,12 +70,12 @@ function graphic_report_admin_options()
 		}
 		else
 		{
-			echo "<div align='center'>At present monthly post summary graph not available.</div>";
+			echo "<div align='center'>".__('At present monthly post summary graph not available.', 'graphical-statistics-report')."</div>";
 		}
 		//---------------------------------------------------------------------------------------------------------
 	
 	
-		?><h3>Monthly comment report</h3><?php
+		?><h3><?php _e('Monthly comment report', 'graphical-statistics-report'); ?></h3><?php
 		//------------------------------Monthly comment Summary-------------------------------------------------------
 		$sSql =	"SELECT  MONTH(comment_date) as m, YEAR(comment_date) as y, COUNT(*) as tot from $wpdb->comments WHERE ";
 		$sSql =	$sSql . " comment_type<>'pingback' GROUP BY MONTH(comment_date), YEAR(comment_date) order by ";
@@ -105,12 +104,12 @@ function graphic_report_admin_options()
 		}
 		else
 		{
-			echo "<div align='center'>At present monthly comment report graph not available.</div>";
+			echo "<div align='center'>".__('At present monthly comment report graph not available.', 'graphical-statistics-report')."</div>";
 		}
 		//----------------------------------------------------------------------------------------------------------
 	
 	
-		?><h3>Monthly user registration report</h3><?php
+		?><h3><?php _e('Monthly user registration report', 'graphical-statistics-report'); ?></h3><?php
 		//------------------------------Monthly post Summary-------------------------------------------------------
 		$sSql =	"SELECT MONTH( user_registered ) AS m, YEAR( user_registered ) AS y, COUNT( * ) AS tot";
 		$sSql =	$sSql . " FROM $wpdb->users";
@@ -140,12 +139,12 @@ function graphic_report_admin_options()
 		}
 		else
 		{
-			echo "<div align='center'>At present monthly user registration summary graph not available.</div>";
+			echo "<div align='center'>".__('At present monthly user registration summary graph not available.', 'graphical-statistics-report')."</div>";
 		}
 		//----------------------------------------------------------------------------------------------------------
 	
 	
-		?><h3>Category report</h3><?php
+		?><h3><?php _e('Category report', 'graphical-statistics-report'); ?></h3><?php
 		//------------------------------Category Summary-------------------------------------------------------
 		$sSql =	"SELECT a.count as tot ,b.name as name FROM $wpdb->term_taxonomy as a,$wpdb->terms as b WHERE a.term_id=b.term_id" ;
 		$sSql =	$sSql . " and a.taxonomy='category' order by a.term_taxonomy_id limit 0,20";
@@ -172,19 +171,22 @@ function graphic_report_admin_options()
 		}
 		else
 		{
-			echo "<div align='center'>At present category report graph not available.</div>";
+			echo "<div align='center'>".__('At present category report graph not available.', 'graphical-statistics-report')."</div>";
 		}
 		//----------------------------------------------------------------------------------------------------------
 		?>
 	 </div>
-	  <p class="description">Check official website for more information <a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/">Click here</a></p>
+	  <p class="description"><?php _e('Check official website for more information', 'graphical-statistics-report'); ?> 
+	  <a target="_blank" href="http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/"><?php _e('Click here', 'graphical-statistics-report'); ?></a></p>
 	</div>
     <?php
 }
 
 function graphic_report_add_to_menu() 
 {
-	add_options_page('Graphical Statistics', 'Graphical Statistics', 'manage_options', 'graphical-statistics-report', 'graphic_report_admin_options' );
+	add_options_page(__('Graphical Statistics', 'graphical-statistics-report'), 
+						__('Graphical Statistics', 'graphical-statistics-report'), 'manage_options', 
+							'graphical-statistics-report', 'graphic_report_admin_options' );
 }
 
 if (is_admin()) 
@@ -192,7 +194,12 @@ if (is_admin())
 	add_action('admin_menu', 'graphic_report_add_to_menu');
 }
 
+function graphic_report_textdomain() 
+{
+	  load_plugin_textdomain( 'graphical-statistics-report', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
+
+add_action('plugins_loaded', 'graphic_report_textdomain');
 register_activation_hook(__FILE__, 'graphic_report_activation');
 register_deactivation_hook( __FILE__, 'graphic_report_deactivate' );
-
 ?>

@@ -5,8 +5,8 @@ Author URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Tags: graphical, statistics, report, graph, fusion chart,fusion graph, analysis, admin,
 Requires at least: 3.4
-Tested up to: 3.6
-Stable tag: 8.1
+Tested up to: 3.8
+Stable tag: 8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
@@ -49,11 +49,17 @@ No, this plugin only for admin report.
   
 == Screenshots ==
 
-1. Menu
+1. Menu http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 
-2. Graphical report
+2. Graphical report http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 
 == Upgrade Notice ==
+
+= Version 8.2 =
+
+1. Tested up to 3.8
+2. Now this plugin supports localization (or internationalization). i.e. option to translate into other languages. 
+Plugin *.po file (graphical-statistics-report.po) available in the languages folder. Translators Welcome.
 
 = Version 8.1 =
 
@@ -98,6 +104,12 @@ Tested up to 3.0
 First version
 
 == Changelog ==
+
+= Version 8.2 =
+
+1. Tested up to 3.8
+2. Now this plugin supports localization (or internationalization). i.e. option to translate into other languages. 
+Plugin *.po file (graphical-statistics-report.po) available in the languages folder. Translators Welcome.
 
 = Version 8.1 =
 

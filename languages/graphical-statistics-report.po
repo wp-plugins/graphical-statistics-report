@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Graphical statistics report\n"
-"POT-Creation-Date: 2014-01-04 10:52+0800\n"
-"PO-Revision-Date: 2014-01-04 10:52+0800\n"
+"POT-Creation-Date: 2014-04-20 00:29+0800\n"
+"PO-Revision-Date: 2014-04-20 00:29+0800\n"
 "Last-Translator: \n"
 "Language-Team: www.gopiplus.com <www.gopiplus.com>\n"
 "MIME-Version: 1.0\n"
@@ -21,38 +21,12 @@ msgstr ""
 msgid "Monthly post report"
 msgstr ""
 
-#: ../graphical-statistics-report.php:61
-msgid "Monthly post summary"
-msgstr ""
-
-#: ../graphical-statistics-report.php:61
-msgid "This will display the post report for last 12 months"
-msgstr ""
-
-#: ../graphical-statistics-report.php:61 ../graphical-statistics-report.php:95
-#: ../graphical-statistics-report.php:130
-msgid "Month"
-msgstr ""
-
-#: ../graphical-statistics-report.php:61
-msgid "Post total for every month"
-msgstr ""
-
 #: ../graphical-statistics-report.php:73
 msgid "At present monthly post summary graph not available."
 msgstr ""
 
-#: ../graphical-statistics-report.php:78 ../graphical-statistics-report.php:95
+#: ../graphical-statistics-report.php:78
 msgid "Monthly comment report"
-msgstr ""
-
-#: ../graphical-statistics-report.php:95
-msgid "This will display the comment posted count for last 12 month"
-msgstr ""
-
-#: ../graphical-statistics-report.php:95
-#: ../graphical-statistics-report.php:162
-msgid "post count for each category"
 msgstr ""
 
 #: ../graphical-statistics-report.php:107
@@ -63,33 +37,12 @@ msgstr ""
 msgid "Monthly user registration report"
 msgstr ""
 
-#: ../graphical-statistics-report.php:130
-msgid "Monthly user registration summary"
-msgstr ""
-
-#: ../graphical-statistics-report.php:130
-msgid "This will display the last 12 months user registration summary"
-msgstr ""
-
-#: ../graphical-statistics-report.php:130
-msgid "User count for every month"
-msgstr ""
-
 #: ../graphical-statistics-report.php:142
 msgid "At present monthly user registration summary graph not available."
 msgstr ""
 
 #: ../graphical-statistics-report.php:147
-#: ../graphical-statistics-report.php:162
 msgid "Category report"
-msgstr ""
-
-#: ../graphical-statistics-report.php:162
-msgid "This will display post count for each category"
-msgstr ""
-
-#: ../graphical-statistics-report.php:162
-msgid "category"
 msgstr ""
 
 #: ../graphical-statistics-report.php:174

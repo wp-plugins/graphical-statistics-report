@@ -5,8 +5,8 @@ Author URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Tags: graphical, statistics, report, graph, fusion chart,fusion graph, analysis, admin,
 Requires at least: 3.4
-Tested up to: 3.8
-Stable tag: 8.2
+Tested up to: 3.9
+Stable tag: 8.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
@@ -44,16 +44,21 @@ Thanks to fusion Charts team for this SWF graph.
 
 == Frequently Asked Questions ==
 
-**How to display this plug-in to front end?**  
+= How to display this plug-in to front end? =
+ 
 No, this plugin only for admin report.  
   
 == Screenshots ==
 
-1. Menu http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
+1. Menu. http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 
-2. Graphical report http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
+2. Graphical report. http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 
 == Upgrade Notice ==
+
+= Version 8.3 =
+
+1. Tested up to 3.9
 
 = Version 8.2 =
 
@@ -104,6 +109,10 @@ Tested up to 3.0
 First version
 
 == Changelog ==
+
+= Version 8.3 =
+
+1. Tested up to 3.9
 
 = Version 8.2 =
 

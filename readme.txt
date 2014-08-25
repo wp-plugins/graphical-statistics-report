@@ -5,20 +5,20 @@ Author URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Tags: graphical, statistics, report, graph, fusion chart,fusion graph, analysis, admin,
 Requires at least: 3.4
-Tested up to: 3.9
-Stable tag: 8.3
+Tested up to: 4.0
+Stable tag: 8.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
-This plug-in will display the graphical report for admin about post count, user registration, comments posted activity.
+This plugin will display the graphical report for admin about post count, user registration, comments posted activity.
 
 == Description ==
 
 Check official website for live demo [http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/](http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/)
 	
-*  Live Demo [Live Demo](http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/)	
-*  More Information [More Information](http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/)				
-*  User Comments [User Comments](http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/)		
+* [Live Demo](http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/)	
+* [More Information](http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/)				
+* [Contact](http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/)		
 
 Graphical statistics report wordpress plugin create the graphical report about monthly user registration, monthly post, monthly comment, category wise post count in the admin. All the statistics will be display with the help fusion char. This is very useful plugin to trace your website statistics.
 
@@ -32,15 +32,11 @@ Graphical statistics report wordpress plugin create the graphical report about m
 **To see the report:**
 
 1. Activate the plugin.
-2. Go to 'Graphical statistics' link under SETTINGS TAB to see the report graph.  
-
-Thanks to fusion Charts team for this SWF graph.
+2. Go to 'Graphical statistics' link under Dashboard Setting Menu to see the report graph.  
 
 == Installation ==
 
-**Installation Instruction & Configuration**  
-
-[http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/](http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/)
+[Installation Instruction & Configuration](http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/)
 
 == Frequently Asked Questions ==
 
@@ -55,6 +51,10 @@ No, this plugin only for admin report.
 2. Graphical report. http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 
 == Upgrade Notice ==
+
+= Version 8.4 =
+
+1. Tested up to 4.0
 
 = Version 8.3 =
 
@@ -109,6 +109,10 @@ Tested up to 3.0
 First version
 
 == Changelog ==
+
+= Version 8.4 =
+
+1. Tested up to 4.0
 
 = Version 8.3 =
 

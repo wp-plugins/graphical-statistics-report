@@ -3,7 +3,7 @@
 Plugin Name: graphical statistics report
 Plugin URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Description: This plug-in will display the graphical report for admin about, monthly user registration, monthly post summary, monthly comments posted summary and category wise post summary.
-Version: 8.4
+Version: 8.5
 Author: Gopi Ramasamy
 Author URI: http://www.gopiplus.com/work/2010/07/18/graphical-statistics-report/
 Donate link: http://www.gopiplus.com/work/2011/05/08/wordpress-plugin-image-horizontal-reel-scroll-slideshow/

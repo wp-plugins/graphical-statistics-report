@@ -1,63 +1,66 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Graphical statistics report\n"
-"POT-Creation-Date: 2015-10-17 22:09+0800\n"
-"PO-Revision-Date: 2015-10-17 22:09+0800\n"
+"Project-Id-Version: graphical statistics report\n"
+"POT-Creation-Date: 2015-10-17 22:10+0800\n"
+"PO-Revision-Date: 2015-10-17 22:10+0800\n"
 "Last-Translator: \n"
-"Language-Team: www.gopiplus.com <www.gopiplus.com>\n"
+"Language-Team: www.gopiplus.com\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../graphical-statistics-report.php:41
 msgid "Graphical statistics"
-msgstr ""
+msgstr "Statystyki graficzne"
 
 #: ../graphical-statistics-report.php:42
 msgid "Monthly post report"
-msgstr ""
+msgstr "Miesięczny raport po"
 
 #: ../graphical-statistics-report.php:73
 msgid "At present monthly post summary graph not available."
-msgstr ""
+msgstr "Obecnie miesięcznym wykresie podsumowania post nie jest dostępna."
 
 #: ../graphical-statistics-report.php:78
 msgid "Monthly comment report"
-msgstr ""
+msgstr "Komentarz Miesięczny raport"
 
 #: ../graphical-statistics-report.php:107
 msgid "At present monthly comment report graph not available."
-msgstr ""
+msgstr "Obecnie miesięcznym wykresie podsumowania post nie jest dostępna."
 
 #: ../graphical-statistics-report.php:112
 msgid "Monthly user registration report"
-msgstr ""
+msgstr "Miesięczny raport rejestracji użytkownika"
 
 #: ../graphical-statistics-report.php:142
 msgid "At present monthly user registration summary graph not available."
 msgstr ""
+"Obecnie miesięcznej rejestracji użytkownika wykresie Podsumowanie "
+"Niedostępne."
 
 #: ../graphical-statistics-report.php:147
 msgid "Category report"
-msgstr ""
+msgstr "Kategoria"
 
 #: ../graphical-statistics-report.php:174
 msgid "At present category report graph not available."
-msgstr ""
+msgstr "Obecnie miesięcznym wykresie podsumowania post nie jest dostępna."
 
 #: ../graphical-statistics-report.php:179
 msgid "Check official website for more information"
-msgstr ""
+msgstr "Sprawdzić oficjalną stronę internetową, aby uzyskać więcej informacji"
 
 #: ../graphical-statistics-report.php:180
 msgid "Click here"
-msgstr ""
+msgstr "Kliknij tutaj"
 
 #: ../graphical-statistics-report.php:187
 #: ../graphical-statistics-report.php:188
 msgid "Graphical Statistics"
-msgstr ""
+msgstr "Statystyki graficzne"
